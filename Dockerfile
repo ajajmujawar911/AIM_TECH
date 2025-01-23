@@ -1,4 +1,4 @@
-FROM node:23-alpine.20
+FROM node:latest
 
 WORKDIR /node-aim
 
