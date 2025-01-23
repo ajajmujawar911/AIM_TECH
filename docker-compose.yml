@@ -9,7 +9,7 @@ web:
   ports: 
      - "3000:3000"
   
-  volumes: . /node-aim
+  volumes: . :/node-aim
 
   enviroment:
     - NODE_ENV=production
